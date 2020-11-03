@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f593ef1-e8dc-483b-a75e-151067b1c6cf">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="c005b328-6343-4a1c-aab3-40f5b9abb0ef"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="7e6c8be7-c891-4e2f-826c-2f962d2d9f3b"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="84098a6b-4885-45e9-9173-f5f019d96ab6"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="462245de-541e-4dc7-94d4-b1bb436dd279"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="29c8c9ad-8e7f-4ee4-aa23-0e2c168a8492"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="6a71e5bd-f9bc-45c3-9d97-72dd1683317b"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="093fe9ee-194e-4ea4-90ab-afb70e14b05e"/>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <interfaceCompatibilityMode>Version8_2EnableTaxi</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.17</compatibilityMode>
+  <languages uuid="6b79a88f-749c-4383-aaad-b9871d420d00">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.ПолныеПрава</roles>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Хранилища</catalogs>
+  <enums>Enum.ОбластиИзменения</enums>
+  <dataProcessors>DataProcessor.АРМ</dataProcessors>
+  <informationRegisters>InformationRegister.Доработки</informationRegisters>
+</mdclass:Configuration>
