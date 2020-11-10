@@ -184,4 +184,17 @@
     </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <dimensions uuid="94bef267-dc01-4452-808c-3cd22b78ca16">
+    <name>Новый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Н.</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
 </mdclass:InformationRegister>
