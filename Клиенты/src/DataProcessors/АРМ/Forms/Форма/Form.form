@@ -335,10 +335,6 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
-            <activeLanguage>1</activeLanguage>
-            <paths xsi:type="form:DataPath">
-              <segments>Хранилища.УКлиента</segments>
-            </paths>
             <paths xsi:type="form:DataPath">
               <segments>Хранилища.УКлиента</segments>
             </paths>
@@ -387,12 +383,8 @@
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:MultiLanguageDataPath">
-              <activeLanguage>1</activeLanguage>
               <paths xsi:type="form:DataPath">
                 <segments>Хранилища.Description</segments>
-              </paths>
-              <paths xsi:type="form:DataPath">
-                <segments>Хранилища.Наименование</segments>
               </paths>
             </dataPath>
             <extendedTooltip>
@@ -443,10 +435,6 @@
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:MultiLanguageDataPath">
-              <activeLanguage>1</activeLanguage>
-              <paths xsi:type="form:DataPath">
-                <segments>Хранилища.ПутьКХранилищу</segments>
-              </paths>
               <paths xsi:type="form:DataPath">
                 <segments>Хранилища.ПутьКХранилищу</segments>
               </paths>
@@ -528,12 +516,8 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
-            <activeLanguage>1</activeLanguage>
             <paths xsi:type="form:DataPath">
               <segments>Хранилища.Owner</segments>
-            </paths>
-            <paths xsi:type="form:DataPath">
-              <segments>Хранилища.Владелец</segments>
             </paths>
           </dataPath>
           <extendedTooltip>
@@ -583,12 +567,8 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
-            <activeLanguage>1</activeLanguage>
             <paths xsi:type="form:DataPath">
               <segments>Хранилища.Code</segments>
-            </paths>
-            <paths xsi:type="form:DataPath">
-              <segments>Хранилища.Код</segments>
             </paths>
           </dataPath>
           <extendedTooltip>
@@ -638,10 +618,6 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
-            <activeLanguage>1</activeLanguage>
-            <paths xsi:type="form:DataPath">
-              <segments>Хранилища.Информация</segments>
-            </paths>
             <paths xsi:type="form:DataPath">
               <segments>Хранилища.Информация</segments>
             </paths>
@@ -693,12 +669,8 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
-            <activeLanguage>1</activeLanguage>
             <paths xsi:type="form:DataPath">
               <segments>Хранилища.DeletionMark</segments>
-            </paths>
-            <paths xsi:type="form:DataPath">
-              <segments>Хранилища.ПометкаУдаления</segments>
             </paths>
           </dataPath>
           <extendedTooltip>
@@ -741,10 +713,6 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
-            <activeLanguage>1</activeLanguage>
-            <paths xsi:type="form:DataPath">
-              <segments>Хранилища.ПарольИБ</segments>
-            </paths>
             <paths xsi:type="form:DataPath">
               <segments>Хранилища.ПарольИБ</segments>
             </paths>
@@ -796,12 +764,8 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
-            <activeLanguage>1</activeLanguage>
             <paths xsi:type="form:DataPath">
               <segments>Хранилища.Ref</segments>
-            </paths>
-            <paths xsi:type="form:DataPath">
-              <segments>Хранилища.Ссылка</segments>
             </paths>
           </dataPath>
           <extendedTooltip>
@@ -851,10 +815,6 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
-            <activeLanguage>1</activeLanguage>
-            <paths xsi:type="form:DataPath">
-              <segments>Хранилища.ОбластьИзменения</segments>
-            </paths>
             <paths xsi:type="form:DataPath">
               <segments>Хранилища.ОбластьИзменения</segments>
             </paths>
@@ -1073,6 +1033,11 @@
         <fileDragMode>AsFileRef</fileDragMode>
         <extInfo xsi:type="form:DynamicListTableExtInfo">
           <autoRefreshPeriod>60</autoRefreshPeriod>
+          <period>
+            <startDate>0001-01-01T00:00:00</startDate>
+            <endDate>0001-01-01T00:00:00</endDate>
+          </period>
+          <topLevelParent xsi:type="core:UndefinedValue"/>
           <showRoot>true</showRoot>
         </extInfo>
       </items>
@@ -1416,10 +1381,6 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
-            <activeLanguage>1</activeLanguage>
-            <paths xsi:type="form:DataPath">
-              <segments>ТекущееХранилище.ПользователиХранилища.УКлиента</segments>
-            </paths>
             <paths xsi:type="form:DataPath">
               <segments>ТекущееХранилище.ПользователиХранилища.УКлиента</segments>
             </paths>
@@ -1465,10 +1426,6 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
-            <activeLanguage>1</activeLanguage>
-            <paths xsi:type="form:DataPath">
-              <segments>ТекущееХранилище.ПользователиХранилища.ПутьКБазе</segments>
-            </paths>
             <paths xsi:type="form:DataPath">
               <segments>ТекущееХранилище.ПользователиХранилища.ПутьКБазе</segments>
             </paths>
@@ -1524,10 +1481,6 @@
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:MultiLanguageDataPath">
-              <activeLanguage>1</activeLanguage>
-              <paths xsi:type="form:DataPath">
-                <segments>ТекущееХранилище.ПользователиХранилища.Логин</segments>
-              </paths>
               <paths xsi:type="form:DataPath">
                 <segments>ТекущееХранилище.ПользователиХранилища.Логин</segments>
               </paths>
@@ -1580,10 +1533,6 @@
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:MultiLanguageDataPath">
-              <activeLanguage>1</activeLanguage>
-              <paths xsi:type="form:DataPath">
-                <segments>ТекущееХранилище.ПользователиХранилища.Пароль</segments>
-              </paths>
               <paths xsi:type="form:DataPath">
                 <segments>ТекущееХранилище.ПользователиХранилища.Пароль</segments>
               </paths>
@@ -1669,12 +1618,8 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
-            <activeLanguage>1</activeLanguage>
             <paths xsi:type="form:DataPath">
               <segments>ТекущееХранилище.ПользователиХранилища.LineNumber</segments>
-            </paths>
-            <paths xsi:type="form:DataPath">
-              <segments>ТекущееХранилище.ПользователиХранилища.НомерСтроки</segments>
             </paths>
           </dataPath>
           <extendedTooltip>
@@ -2415,8 +2360,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Доработки.Новый</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>Доработки.Новый</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ДоработкиНовыйРасширеннаяПодсказка</name>
@@ -3183,7 +3130,7 @@
       <common>true</common>
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Хранилища.Ссылка</segments>
+      <segments>Хранилища.Ref</segments>
     </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
