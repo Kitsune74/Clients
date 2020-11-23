@@ -2440,6 +2440,14 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:InputFieldExtInfo">
+            <handlers>
+              <event>EditTextChange</event>
+              <name>ДоработкиОбъектКонфыИзменениеТекстаРедактирования</name>
+            </handlers>
+            <handlers>
+              <event>AutoComplete</event>
+              <name>ДоработкиОбъектКонфыАвтоПодбор</name>
+            </handlers>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
@@ -3176,6 +3184,56 @@
     <edit>
       <common>true</common>
     </edit>
+  </attributes>
+  <attributes>
+    <name>ТекущиеОбъекты</name>
+    <title>
+      <key>ru</key>
+      <value>Текущие объекты</value>
+    </title>
+    <id>8</id>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </itemValueType>
+    </extInfo>
+  </attributes>
+  <attributes>
+    <name>НайденныйТекст</name>
+    <title>
+      <key>ru</key>
+      <value>Найденный текст</value>
+    </title>
+    <id>9</id>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </itemValueType>
+    </extInfo>
   </attributes>
   <commandInterface>
     <navigationPanel/>
