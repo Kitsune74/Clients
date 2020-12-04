@@ -92,14 +92,11 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>20</length>
+        <length>50</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -185,7 +182,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>20</length>
+          <length>50</length>
         </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
@@ -202,7 +199,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>10</length>
+          <length>50</length>
         </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
