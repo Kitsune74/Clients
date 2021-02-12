@@ -90,6 +90,12 @@
   <codeAllowedLength>Variable</codeAllowedLength>
   <descriptionLength>25</descriptionLength>
   <content>
+    <mdObject>InformationRegister.НаличиеФайлов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.УдалитьХранимыеФайлыВерсий</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.ПараметрыАдминистрированияИБ</mdObject>
   </content>
   <content>
@@ -99,7 +105,13 @@
     <mdObject>Constant.ИспользоватьДополнительныеОтчетыИОбработки</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.НомераОтсканированныхФайлов</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.НеудаленныеОбъекты</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ЗапрещатьЗагрузкуФайловПоРасширению</mdObject>
   </content>
   <content>
     <mdObject>Catalog.ВнешниеКомпоненты</mdObject>
@@ -111,10 +123,19 @@
     <mdObject>InformationRegister.ПредопределенныеВариантыОтчетовВерсийРасширений</mdObject>
   </content>
   <content>
+    <mdObject>Constant.СписокРасширенийФайловOpenDocumentОбластиДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.НастройкиСинхронизацииФайлов</mdObject>
+  </content>
+  <content>
     <mdObject>Catalog.ПредопределенныеВариантыОтчетовРасширений</mdObject>
   </content>
   <content>
     <mdObject>Catalog.ИдентификаторыОбъектовМетаданных</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ФайлыВРабочемКаталоге</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ</mdObject>
@@ -123,7 +144,22 @@
     <mdObject>InformationRegister.ОбработчикиОбновления</mdObject>
   </content>
   <content>
+    <mdObject>Constant.СписокЗапрещенныхРасширенийОбластиДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СтатусыСинхронизацииФайловСОблачнымСервисом</mdObject>
+  </content>
+  <content>
     <mdObject>Catalog.ВерсииРасширений</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.СписокРасширенийТекстовыхФайлов</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.СписокРасширенийФайловOpenDocument</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.КлиентыПрисоединенныеФайлы</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ВерсииПодсистем</mdObject>
@@ -133,6 +169,12 @@
   </content>
   <content>
     <mdObject>Constant.ОтложенноеОбновлениеЗавершеноУспешно</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИзвлекатьТекстыФайловНаСервере</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.МаксимальныйРазмерФайла</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ПользовательскиеНастройкиДоступаКОбработкам</mdObject>
@@ -145,6 +187,9 @@
   </content>
   <content>
     <mdObject>InformationRegister.НазначениеДополнительныхОбработок</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СведенияОФайлах</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.СоставыГруппПользователей</mdObject>
@@ -160,6 +205,9 @@
   </content>
   <content>
     <mdObject>Catalog.ВнешниеПользователи</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПапкиФайлов</mdObject>
   </content>
   <content>
     <mdObject>Constant.ИспользоватьПолнотекстовыйПоиск</mdObject>
@@ -189,7 +237,16 @@
     <mdObject>Catalog.ГруппыПользователей</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.НастройкиОчисткиФайлов</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.МаксимальныйРазмерФайлаОбластиДанных</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.ИспользоватьВнешнихПользователей</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.УчетныеЗаписиСинхронизацииФайлов</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ПараметрыРаботыПрограммы</mdObject>
@@ -204,6 +261,9 @@
     <mdObject>Constant.ИспользоватьГруппыПользователей</mdObject>
   </content>
   <content>
+    <mdObject>Constant.СписокЗапрещенныхРасширений</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.НастройкиВариантовОтчетов</mdObject>
   </content>
   <content>
@@ -214,6 +274,9 @@
   </content>
   <content>
     <mdObject>Constant.ИспользоватьРазделениеПоОбластямДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ХранитьФайлыВТомахНаДиске</mdObject>
   </content>
   <content>
     <mdObject>Constant.СведенияОбОбновленииИБ</mdObject>
@@ -231,13 +294,34 @@
     <mdObject>Constant.ЭтоАвтономноеРабочееМесто</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.ТомаХраненияФайлов</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.ИдентификаторыОбъектовВерсийРасширений</mdObject>
   </content>
   <content>
     <mdObject>Constant.АдресПубликацииИнформационнойБазыВЛокальнойСети</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.КодировкиФайлов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Файлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.СинхронизироватьФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВерсииФайлов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ДвоичныеДанныеФайлов</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.ОбработчикиОбновленияОбщихДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.РабочиеКаталогиФайлов</mdObject>
   </content>
   <content>
     <mdObject>Constant.ДетализироватьОбновлениеИБВЖурналеРегистрации</mdObject>

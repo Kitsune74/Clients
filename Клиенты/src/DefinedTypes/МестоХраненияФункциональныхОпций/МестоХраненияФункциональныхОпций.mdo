@@ -11,6 +11,7 @@
   <type>
     <types>ConstantValueManager.НеИспользоватьРазделениеПоОбластямДанных</types>
     <types>ConstantValueManager.ИспользоватьПолнотекстовыйПоиск</types>
+    <types>ConstantValueManager.ХранитьФайлыВТомахНаДиске</types>
     <types>ConstantValueManager.ИспользоватьВнешнихПользователей</types>
     <types>ConstantValueManager.ЭтоАвтономноеРабочееМесто</types>
     <types>ConstantValueManager.ИспользоватьДополнительныеОтчетыИОбработки</types>

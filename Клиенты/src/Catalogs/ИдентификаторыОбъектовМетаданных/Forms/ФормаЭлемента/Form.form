@@ -1005,7 +1005,7 @@
         <userVisible/>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>0</command>
+        <command>CommonCommand.ПрисоединенныеФайлы</command>
         <userVisible/>
       </cmiFragmentRecord>
     </navigationPanel>

@@ -4,6 +4,17 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>InformationRegister.НаличиеФайлов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ВариантыОтчетов</name>
 		<right>
 			<name>Read</name>
@@ -29,6 +40,28 @@
 	</object>
 	<object>
 		<name>Constant.ИспользоватьДополнительныеОтчетыИОбработки</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.НомераОтсканированныхФайлов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ЗапрещатьЗагрузкуФайловПоРасширению</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -72,6 +105,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.СоздаватьПодкаталогиСИменамиВладельцев</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>CommonForm.ПанельОтчетов</name>
 		<right>
 			<name>View</name>
@@ -101,6 +145,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.СпособХраненияФайлов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>CommonForm.ФормаВариантаОтчета</name>
 		<right>
 			<name>View</name>
@@ -123,6 +178,17 @@
 	</object>
 	<object>
 		<name>InformationRegister.ПредопределенныеВариантыОтчетовВерсийРасширений</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.СписокРасширенийФайловOpenDocumentОбластиДанных</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -216,6 +282,28 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.СписокЗапрещенныхРасширенийОбластиДанных</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.СтатусыСинхронизацииФайловСОблачнымСервисом</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>SessionParameter.ВыполняетсяОбновлениеИБ</name>
 		<right>
 			<name>Get</name>
@@ -230,6 +318,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.СписокРасширенийТекстовыхФайлов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>SessionParameter.ВыполняетсяУдалениеОбъектов</name>
 		<right>
 			<name>Get</name>
@@ -237,6 +336,17 @@
 		</right>
 		<right>
 			<name>Set</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.СписокРасширенийФайловOpenDocument</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -360,6 +470,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.ИзвлекатьТекстыФайловНаСервере</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>SessionParameter.ТекущийПользователь</name>
 		<right>
 			<name>Get</name>
@@ -368,6 +489,17 @@
 	</object>
 	<object>
 		<name>CommonForm.ВыборФорматаВложений</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.МаксимальныйРазмерФайла</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -429,6 +561,13 @@
 	</object>
 	<object>
 		<name>CommonCommand.УстановитьРасширениеДляРаботыС1СПредприятием</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.НапоминаниеПриРедактировании</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -655,7 +794,25 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.НастройкаРабочегоКаталога</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>CommonForm.КонтрольДинамическогоОбновления</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.МаксимальныйРазмерФайлаОбластиДанных</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -669,6 +826,21 @@
 		</right>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.УчетныеЗаписиСинхронизацииФайлов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -700,6 +872,24 @@
 	</object>
 	<object>
 		<name>DataProcessor.НастройкиПользователей.Command.НастройкиПользователя</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.ВыборДействияПриОбнаруженииОтличийФайла</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.СписокЗапрещенныхРасширений</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -760,6 +950,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonCommand.ПрисоединенныеФайлы</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>CommonForm.ПоддерживаемыеКлиентскиеПриложения</name>
 		<right>
 			<name>View</name>
@@ -767,7 +964,25 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.СозданиеНачальногоОбразаСФайлами</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ИспользоватьРазделениеПоОбластямДанных</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ХранитьФайлыВТомахНаДиске</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -901,9 +1116,31 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.КодировкиФайлов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>SessionParameter.РаботаСВнешнимиРесурсамиЗаблокирована</name>
 		<right>
 			<name>Get</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ПараметрыХраненияФайловВИБ</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -960,6 +1197,13 @@
 			<name>Read</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.ВыборПутиКАрхивуФайловТомов</name>
 		<right>
 			<name>View</name>
 			<value>true</value>

@@ -7,7 +7,6 @@
   </synonym>
   <subsystems>АнализЖурналаРегистрации</subsystems>
   <subsystems>БазоваяФункциональность</subsystems>
-  <subsystems>ВариантыОтчетов</subsystems>
   <subsystems>ВнешниеКомпоненты</subsystems>
   <subsystems>ГрупповоеИзменениеОбъектов</subsystems>
   <subsystems>ДополнительныеОтчетыИОбработки</subsystems>
@@ -16,6 +15,8 @@
   <subsystems>ПодключаемыеКоманды</subsystems>
   <subsystems>ПолнотекстовыйПоиск</subsystems>
   <subsystems>Пользователи</subsystems>
+  <subsystems>ВариантыОтчетов</subsystems>
   <subsystems>РегламентныеЗадания</subsystems>
   <subsystems>УдалениеПомеченныхОбъектов</subsystems>
+  <subsystems>РаботаСФайлами</subsystems>
 </mdclass:Subsystem>
